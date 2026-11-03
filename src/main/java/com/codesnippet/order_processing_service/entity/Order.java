@@ -9,7 +9,6 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private String customerEmail;
     private String status; // PENDING, PROCESSING, COMPLETED
     private LocalDateTime createdAt;

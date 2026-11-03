@@ -1,6 +1,16 @@
-spring.application.name=order-processing-service
-spring.datasource.url=jdbc:h2:mem:appdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=password
-spring.h2.console.enabled=true
+spring:
+  application:
+    name: order-processing-service
+  datasource:
+    url: jdbc:h2:mem:appdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+
+
+
+server:
+  port: 8089
